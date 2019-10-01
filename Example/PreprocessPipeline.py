@@ -80,7 +80,7 @@ def StockPreprocessing(stockdata, stock_ticker):
 
         # Se cambian los nombres de las columnas y se elimina lo demas
         #stockdata         = stockdata[['name', 'times', 'type', 'value', 'size']] # ASI ERA ORIGINALMENTE, SE CAMBIO PARA LA PRESENTACION
-	stockdata         = stockdata[['ticker', 'timestamp', 'type', 'price', 'volume']]
+        stockdata         = stockdata[['ticker', 'timestamp', 'type', 'price', 'volume']]
         stockdata.columns = ['nombre','date_time','tipo','precio','volumen']
         stockdata         = stockdata[['nombre','date_time','tipo','precio','volumen']]
 
