@@ -12,6 +12,9 @@ We use Python and Jupyter notebooks to illustrate how to use Trade and Quote Dat
 (https://github.com/nromerodiaz/SciPy2019/blob/master/IntradayF.png "Figure")
 
 The figure presents a schematic view of the tools that are available.
+
+To start working with the code and the sample data go to the [Example folder](https://github.com/nromerodiaz/SciPy2019/tree/master/Example) and follow the instructions. 
+
 Although TAQ data provides already some insights into high frequency finance our goal is to eventually have the opportunity to reconstruct the Limit Order Book for the local market and hopefully provide this data to practitioner and the scientific community to foster the development of capital markets in Colombia.   
 Do not hesitate to contact us for any questions regarding the tools and examples.
 
