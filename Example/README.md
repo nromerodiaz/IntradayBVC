@@ -1,9 +1,30 @@
 # Exploring Intraday data with Jupyter notebooks
 
+## 1. Set up the enviorment
 
+Create a new enviorment using the virtual enviorment package. Install if needed.
 
+```
+pip install virtualenv
+```
+Form the workspace directory create the virtual enviorment
+```
+python -m venv taq
+```
+Navigate though the folder that has been created
+```
+cd taq/Scripts
+```
+Activate virtual enviorment
+```
+activate
+```
+Navigate to the folder containing the `requirements.txt`
+```
+pip install -r requirements.txt
+```
 
-## 1. Use Kaggle to download the sample dataset
+## 2. Use Kaggle to download the sample dataset
 
 We provide a sample dataset with intrady information for five stocks (PFBCOLO, ECOPETL, BCOLO, PFAVAL, ISA) that trade in the Colombian Stock Exchange (Bolsa de Valores de Colombia). Trade and Quote data provides information on the best bid and ask, trades on prices and volumes for stocks. The sample contains intraday information from April to August 2017.
 
@@ -22,5 +43,17 @@ Then in the command line navegate do where you want to download the data (this r
 kaggle datasets download -d ccastroiragorri/taqcolombiasample 
 ```
 
-## 2. Use the Example jupyter notebook
+## Start jupyter notebook
+
+Navigate to Example folder and follow th instructions in notebook `Example.ipynb`
+
+
+
+
+
+
+
+
+
+
 
