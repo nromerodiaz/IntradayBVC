@@ -10,7 +10,7 @@ notebook==5.2.0
 numpy==1.17.2
 pandas==0.24.1
 pandocfilters==1.4.2
-psutil==5.6.1
+psutil==5.6.6
 python-apt==1.6.4
 python-dateutil==2.8.0
 python-debian==0.1.32
