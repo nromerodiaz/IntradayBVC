@@ -6,7 +6,7 @@ jupyter-core==4.3.0
 kaggle==1.5.5
 matplotlib==2.1.1
 mpmath==1.0.0
-notebook==5.2.0
+notebook==6.1.5
 numpy==1.17.2
 pandas==0.24.1
 pandocfilters==1.4.2
